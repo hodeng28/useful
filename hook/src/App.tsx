@@ -1,10 +1,12 @@
 import './App.css';
-import { Button, Stack } from '@mui/material';
+import { Stack } from '@mui/material';
+import ScrollRestoration from './hook/ScrollRestoration';
 
 function App() {
   return (
     <Stack>
-      <Button>test</Button>
+      ddd
+      <ScrollRestoration />
     </Stack>
   );
 }
